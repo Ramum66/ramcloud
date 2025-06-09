@@ -7,10 +7,9 @@ pipeline {
                     println "if any changes come from outside prpipeline will invoke"
                     var1 = 10
                     println "my variable value is ${var1}"
-                    for i in {1..10}
-                    do
-                        echo "my i value is $i"
-                    done
+                    for(i=0,i<=10,i++) {
+                        ptintln "my invalue is $i"
+                    }
                 }
             }
 
